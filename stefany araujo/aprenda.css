@@ -1,0 +1,42 @@
+.box{
+    background-color: rgb(163,163,206);
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border: 10px solid black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding: 10px 10px;
+    text-align: justify;
+    margin: 5px;
+}
+
+.box:hover{
+    background-color: lightpink;
+    color: black;
+}
+
+ article p:first-of-type{
+    color: rgb(168, 26, 168);
+    font-size: 30px;
+ }
+
+ *{
+    background-color: lightgoldenrodyellow;
+ }
+
+ .botao::before{
+    content: '\2190';
+    margin-right: 10px;
+ }
+
+ .botao::after{
+    content: '\2192';
+    margin-left: 10px;
+ }

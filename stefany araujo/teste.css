@@ -1,0 +1,46 @@
+p {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.Incrivel {
+    text-transform: uppercase;
+    font-size: Srem;
+    font-weight: 700;
+    line-height: 1;
+    border: 5px solid;
+    padding: 2rem;
+
+    width: 320px;
+}
+
+.Incrivel {
+    width: min-content;
+    height: min-content;
+}
+
+.Incrivel {
+    --flow-space:2rem;
+}
+
+.box {
+    font-weight: 700;
+    line-height: 1;
+    border: 5px solid;
+    padding: 2rem;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+

@@ -1,0 +1,47 @@
+body {
+    font-family: fantasy;
+    background-color:blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: beige;
+    color: lightcoral;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: beige;
+    color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+a {
+    color:blueviolet
+    text-decoration: none;
+}
+
+form {margin: 20px;}
+
+input[type="text"], input[type="email"], textarea{width: 100X; padding:10px; margin-botton:10px}
+
+img {max-width: 100X; height: auto;}
+
+footer{background-color: lightcoral; color:brown; padding: 10px; text-align: center;}
+
+
+
