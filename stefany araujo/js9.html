@@ -10,7 +10,16 @@
     <ul id="numberList"></ul>
 
     <script>
-        const numberList
+        const itemCount = 5;
+
+        const numberList = document.getElementById("numberList")
+
+        for (let i = 1; i <= itemCount; i++) {
+            const listItem = document.createElement("li");
+            listItem.textContent = "Número" + i;
+
+            numberList.appendChild(listItem);
+        }
     </script>
 </body>
 </html>

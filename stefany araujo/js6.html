@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operadores Lógicos</title>
 </head>
+
 <body>
     <h1>Verificação de Aluguel de Carro</h1>
     <label for="possuiCarteira">Voce possui carteira de motorista?
-(sim/não): </label>
+        (sim/não): </label>
     <input type="text" id="possuiCarteira" placeholder="Digite sim ou não">
     <br>
     <label for="maisde18">Voce tem mais de 18 anos? (sim/não): </label>
@@ -18,23 +20,17 @@
 
     <script>
         function verificarAluguelCarro() {
-            const possuiCarteira = 
-document.getElementById("possuiCarteira").value.toLowerCase();
-            const maisDe18 =
-document.getElementById("maiorDe18").value.toLowerCase();
+            const possuiCarteira = document.getElementById("possuiCarteira").value.toLowerCase();
+            const maisDe18 = document.getElementById("maisDe18").value.toLowerCase();
 
-         if (possuiCarteira === "sim" && maisDe18 === "sim") {
-            document.getElementById("resultado").textContent = "Voce pode alugar um carro!";
-         } else {
-            document.getElementById("resultado").textContent = "Desculpe, voce não pode alugar um carro.";
-         }
+            if (possuiCarteira === "sim" && maisDe18 === "sim") {
+                document.getElementById("resultado").textContent = "Voce pode alugar um carro!";
+            } else {
+                document.getElementById("resultado").textContent = "Desculpe, voce não pode alugar um carro.";
+            }
         }
     </script>
 
 </body>
 
 </html>
-
-
-
-    
