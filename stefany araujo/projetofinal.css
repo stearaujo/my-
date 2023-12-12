@@ -108,6 +108,16 @@ header ul li a{
     clip-path: circle(500px at right);
     background: #FC789D;
 }
+footer{
+    background-color: #FECB02;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
 
